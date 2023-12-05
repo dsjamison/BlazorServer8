@@ -1,0 +1,26 @@
+# Version: 4576aa16bd p-2023.6-push-64
+# Command Line: C:/cov-analysis-win64-2023.6.2/bin/cov-security-da.exe --dir C:/SourceCode/BlazorServer8
+timer                                              ms      calls
+----------------------------------------------------------------
+cov_security_da::run                            40578          1
+  cov_security_da::doSecurityDA                 40578          1
+    Looking for translation units                  15          1
+    Computing links for translation units        9063          1
+    xfer symbol cache                             390          1
+    Dump bytecode TUs                            1438          1
+      dumpBytecode                               1438          1
+    runSecurityDA                               29515          1
+      runDotNetSecurityDA                       29515          1
+    (left over)                                   157
+
+activity                                           ms      calls
+----------------------------------------------------------------
+cov_security_da::run                            40578          1
+cov_security_da::doSecurityDA                   40578          1
+Looking for translation units                      15          1
+Computing links for translation units            9063          1
+xfer symbol cache                                 390          1
+Dump bytecode TUs                                1438          1
+dumpBytecode                                     1438          1
+runSecurityDA                                   29515          1
+runDotNetSecurityDA                             29515          1

@@ -1,0 +1,2 @@
+Failed to find header C:/cov-analysis-win64-2023.6.2/config/templates/dotnet/cc.h
+Failed to find header C:/cov-analysis-win64-2023.6.2/config/templates/dotnet/compiler-compat-dotnet.h

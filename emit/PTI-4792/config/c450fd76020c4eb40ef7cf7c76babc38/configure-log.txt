@@ -1,0 +1,4 @@
+Native Compiler invocation: c:/program files/dotnet/dotnet.exe exec C:\Program Files\dotnet\sdk\8.0.100\Roslyn\bincore\csc.dll /noconfig @C:\Users\dave.jamison\AppData\Local\Temp\MSBuildTempdave.jamison\tmp6c971653489e4207857d820e3a84f137.rsp
+Working directory: C:\SourceCode\BlazorServer8
+Comptype: dotnet
+* Configuring c:\program files\dotnet\dotnet as a C# compiler

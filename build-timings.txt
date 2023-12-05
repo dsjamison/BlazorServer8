@@ -1,0 +1,28 @@
+# Version: 4576aa16bd p-2023.6-push-64
+# Command Line: cov-build --dir C:\SourceCode\BlazorServer8 dotnet build
+timer                              ms      calls
+------------------------------------------------
+cov-build                      139609          1
+  create_or_open emit DB           62          1
+    open emit DB                   47          1
+  add_string_to_table              16         76
+  addEmitFileName                   0          1
+    addEmitFileName                 0          1
+      addEmitFileName               0          1
+  Prepare capture                   0          1
+  Running build command         93704          1
+  SecurityDA                    43406          1
+  TUInfo::getPrimarySFRow          16        296
+  (left over)                    2405
+
+activity                           ms      calls
+------------------------------------------------
+cov-build                      139609          1
+create_or_open emit DB             62          1
+open emit DB                       47          1
+add_string_to_table                16         76
+addEmitFileName                     0          3
+Prepare capture                     0          1
+Running build command           93704          1
+SecurityDA                      43406          1
+TUInfo::getPrimarySFRow            16        296
